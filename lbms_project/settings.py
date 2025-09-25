@@ -30,7 +30,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
   'localhost',
   '127.0.0.1',
-  'backendlbmsss.onrender.com',
+  'backend-lbms-3.onrender.com',
 ]
 
 
@@ -123,7 +123,7 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173", 
     "http://127.0.0.1:5173",
-    "backend-lbms-1.onrender.com", 
+    "https://backend-lbms-3.onrender.com",
 ]
 
 
